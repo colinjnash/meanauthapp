@@ -7,10 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinjnash/meanauthapp.git"
+  },
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
     "cors": "*",
+    "eslint": "^4.19.0",
     "express": "*",
     "jsonwebtoken": "*",
     "mongoose": "*",
@@ -19,5 +24,11 @@
     "passport-jwt": "*"
   },
   "author": "Colin Nash",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinjnash/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/colinjnash/meanauthapp#readme",
+  "devDependencies": {},
+  "keywords": []
 }
